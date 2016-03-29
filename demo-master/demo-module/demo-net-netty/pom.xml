@@ -8,19 +8,19 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<name>cylu.demo.log.log4j</name>
-	<artifactId>cylu.demo.log.log4j</artifactId>
+	<name>cylu.demo.net.netty</name>
+	<artifactId>cylu.demo.net.netty</artifactId>
 	<packaging>jar</packaging>
 
 	<properties>
-		<log4j.version>1.2.17</log4j.version>
+		<netty.version>4.0.33.Final</netty.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>${netty.version}</version>
 		</dependency>
 	</dependencies>
 </project>

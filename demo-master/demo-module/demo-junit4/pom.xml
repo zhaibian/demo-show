@@ -5,22 +5,11 @@
 		<groupId>cylu.demo</groupId>
 		<version>1.0.00.B00</version>
 	</parent>
-
+	
 	<modelVersion>4.0.0</modelVersion>
-
-	<name>cylu.demo.log.log4j</name>
-	<artifactId>cylu.demo.log.log4j</artifactId>
+	
+	<name>cylu.demo.junit4</name>
+	<artifactId>cylu.demo.junit4</artifactId>
 	<packaging>jar</packaging>
-
-	<properties>
-		<log4j.version>1.2.17</log4j.version>
-	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
-		</dependency>
-	</dependencies>
+	
 </project>

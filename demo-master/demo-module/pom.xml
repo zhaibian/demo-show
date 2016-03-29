@@ -13,5 +13,10 @@
 
 	<modules>
 		<module>demo-log-log4j</module>
+		
+		<module>demo-db-mysql</module>
+		<module>demo-db-mycat</module>
+		
+		<module>demo-junit4</module>
 	</modules>
 </project>
